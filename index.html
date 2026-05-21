@@ -1,507 +1,607 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Dineros | BSIT Graduate & Developer</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Samuel Dineros | Full Stack Developer</title>
+
+  <meta
+    name="description"
+    content="Samuel Dineros is a Full Stack Developer focused on building responsive web applications, scalable backend systems, and modern UI/UX experiences."
+  />
+
+  <meta
+    name="keywords"
+    content="Full Stack Developer, Web Developer, Frontend Developer, Backend Developer, PHP Developer, JavaScript Developer, MySQL, UI UX, Responsive Web Design"
+  />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
 </head>
+
 <body>
-    
 
-    <nav class="navbar">
-        <div class="nav-brand">SD.</div>
-        <ul class="nav-links">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="hamburger">
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+
+    <div class="container nav-container">
+
+      <a href="#" class="logo">
+        Samuel<span>.</span>
+      </a>
+
+      <ul class="nav-links">
+
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+      <a href="#contact" class="nav-cta">
+        Let's Talk
+      </a>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-bg"></div>
+
+    <div class="container hero-container">
+
+      <div class="hero-text">
+
+        <div class="hero-badge">
+          AVAILABLE FOR WORK
+        </div>
+
+        <h1>
+          Designing and developing modern digital experiences.
+        </h1>
+
+        <p class="hero-description">
+          I'm Samuel Dineros, a BSIT graduate focused on building responsive,
+          scalable, and interactive web applications with modern frontend
+          and backend technologies while emphasizing clean UI/UX and
+          performance-driven development.
+        </p>
+
+        <div class="hero-actions">
+
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+          </a>
+
+          <a href="#contact" class="btn btn-secondary">
+            Contact Me
+          </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+          <div class="stat-card">
+            <strong>3+</strong>
+            <span>Web Projects</span>
+          </div>
+
+          <div class="stat-card">
+            <strong>Frontend + Backend</strong>
+            <span>Development Focus</span>
+          </div>
+
+          <div class="stat-card">
+            <strong>Open</strong>
+            <span>To Opportunities</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-card">
+
+        <div class="hero-card-top">
+
+          <div class="dots">
             <span></span>
             <span></span>
             <span></span>
+          </div>
+
+          <div class="browser-text">
+            samueldineros.dev
+          </div>
+
         </div>
-    </nav>
 
+        <div class="hero-card-content">
 
-    <section id="home" class="hero-background">
-        <div class="floating-shapes">
-            <div class="shape"></div>
-            <div class="shape"></div>
-            <div class="shape"></div>
-            <div class="shape"></div>
+          <div class="code-line">
+            <span class="purple">const</span>
+            developer =
+            <span class="blue">"Samuel"</span>;
+          </div>
+
+          <div class="code-line">
+            skills:
+            [
+            <span class="green">React</span>,
+            <span class="green">PHP</span>,
+            <span class="green">MySQL</span>
+            ]
+          </div>
+
+          <div class="code-line">
+            focus:
+            <span class="orange">
+              "Responsive Web Applications"
+            </span>
+          </div>
+
+          <div class="code-line">
+            status:
+            <span class="green">
+              "Open to Work"
+            </span>
+          </div>
+
         </div>
-        <div class="hero-content">
-            <p class="greeting">Hello, I'm</p>
-            <h1 class="glitch" data-text="Samuel Dineros">Samuel Dineros</h1>
-            <div class="typing-container">
-                <span class="static-text">I'm a </span>
-                <span class="typing-text"></span>
-                <span class="cursor">|</span>
-            </div>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn-primary">View My Work</a>
-                <a href="#contact" class="btn-secondary">Get In Touch</a>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse"></div>
-            <p>Scroll Down</p>
-        </div>
-    </section>
 
+      </div>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="assets/images/mypicture.jpg" alt="Samuel Dineros" class="profile-image">
-                </div>
-                <div class="about-text">
-                    <h3>BSIT Graduate & Aspiring Developer</h3>
-                    <p id="about-description">
-                        I’m a 4th-year Bachelor of Science in Information Technology student graduating in 2026.
-                         I have a passion for creating interactive and engaging digital experiences. 
-                         My thesis project, PinasTrivia, combines my interest in gaming and education to create 
-                         a unique web-based trivia platform focused on Philippine culture and history.
-                    </p>
-                    <div class="about-details" id="about-details">
-                        <div class="detail-item">
-                            <span class="label">Name:</span>
-                            <span>Samuel Dineros</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="label">Degree:</span>
-                            <span>BS Information Technology</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="label">School:</span>
-                            <span>ACLC - Balanga</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="label">Email:</span>
-                            <span>dinerossamuel.s@gmail.com</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="label">Location:</span>
-                            <span>Philippines</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="label">Availability:</span>
-                            <span class="available">Open for Opportunities</span>
-                        </div>
-                    </div>
-                    <button id="toggleBtn" class="btn-toggle">Hide Details</button>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
+  </section>
 
-    <section id="education" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">Education & Certifications</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Bachelor of Science in Information Technology</h3>
-                        <span class="institution">ACLC - Balanga</span>
-                        <span class="year">2022 - 2026</span>
-                        <p>Major in Web Development. Consistent Class Attendee. Completed 400+ hours of internship at the CIA.</p>
-                        <div class="achievements">
-                            <span class="badge"><i class="fas fa-trophy"></i> Best in Thesis</span>
-                            <span class="badge"><i class="fas fa-code"></i> President Lister</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Senior High School - ICT</h3>
-                        <span class="institution">WPI - Limay</span>
-                        <span class="year">2020 - 2022</span>
-                        <p>Information, and Communications Technology track. Graduated without honors.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <h3 class="subsection-title">Certifications</h3>
-            <div class="cert-grid">
-                <div class="cert-card">
-                    <i class="fab fa-html5"></i>
-                    <h4>HTML5 & CSS3</h4>
-                    <p>None</p>
-                </div>
-                <div class="cert-card">
-                    <i class="fab fa-js"></i>
-                    <h4>JavaScript</h4>
-                    <p>None</p>
-                </div>
-                <div class="cert-card">
-                    <i class="fas fa-database"></i>
-                    <h4>MySQL</h4>
-                    <p>None</p>
-                </div>
-                <div class="cert-card">
-                    <i class="fab fa-php"></i>
-                    <h4>PHP Development</h4>
-                    <p>None</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- ABOUT -->
 
+  <section id="about" class="section">
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            
-
-            <div class="featured-project">
-                <div class="project-badge">Thesis Project</div>
-                <div class="project-content">
-                    <div class="project-info">
-                        <h3>PinasTrivia</h3>
-                        <p class="project-subtitle">Web-Based Trivia Game Platform</p>
-                        <p class="project-desc">
-                            A multiplayer trivia game web application featuring Philippine history, culture, and general knowledge. 
-                            Built with PHP backend and JavaScript frontend, featuring real-time gameplay, and leaderboards.
-                        </p>
-                        <div class="project-features">
-                            <h4>Key Features:</h4>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Real-time multiplayer game rooms</li>
-                                <li><i class="fas fa-check"></i> PHP Emailer authentication system</li>
-                                <li><i class="fas fa-check"></i> Dynamic question bank with categories</li>
-                                <li><i class="fas fa-check"></i> Live leaderboard & scoring system</li>
-                                <li><i class="fas fa-check"></i> Wide array of game modes</li>
-                            </ul>
-                        </div>
-                        <div class="tech-stack">
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
-                            <span>jQuery</span>
-                            <span>Bootstrap</span>
-                            <span>AJAX</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://pinastrivia.free.nf" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="https://github.com/ssdinerr-cell/Pinastrivia_App" class="btn-code"><i class="fab fa-github"></i> View Code</a>
-                        </div>
-                    </div>
-                    <div class="project-preview">
-                        <div class="preview-frame">
-                            <div class="mockup-header">
-                                <div class="dots">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                                <div class="address-bar">pinastrivia.site</div>
-                            </div>
-                            <div class="mockup-content">
-                                <div class="game-ui">
-                                    <div class="score">Score: 11</div>
-                                    <div class="timer">⏱ 15s</div>
-                                    <div class="question">What is the capital of the Philippines?</div>
-                                    <div class="options">
-                                        <div class="option">Cebu</div>
-                                        <div class="option correct">Manila ✓</div>
-                                        <div class="option">Davao</div>
-                                        <div class="option">Quezon City</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
-                    <h3>E-Commerce Website</h3>
-                    <p>A full-stack online store with cart functionality, user authentication, and payment integration using PHP and MySQL.</p>
-                    <div class="tech-tags">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-tasks"></i></div>
-                    <h3>Task Management App</h3>
-                    <p>A collaborative task management tool with drag-and-drop functionality, real-time updates, and team collaboration features.</p>
-                    <div class="tech-tags">
-                        <span>JavaScript</span>
-                        <span>LocalStorage</span>
-                        <span>CSS3</span>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <h3>Student Portal System</h3>
-                    <p>An academic portal for students to view grades, schedules, and announcements. Includes admin dashboard for faculty.</p>
-                    <div class="tech-tags">
-                        <span>PHP</span>
-                        <span>Bootstrap</span>
-                        <span>MySQL</span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-
-    <section id="skills" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Frontend</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="90%">
-                            <span class="skill-name">HTML5 & CSS3</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="85%">
-                            <span class="skill-name">JavaScript</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="80%">
-                            <span class="skill-name">jQuery</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="75%">
-                            <span class="skill-name">Bootstrap</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="85%">
-                            <span class="skill-name">PHP</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="80%">
-                            <span class="skill-name">MySQL</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="60%">
-                            <span class="skill-name">Node.js</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="70%">
-                            <span class="skill-name">REST APIs</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="85%">
-                            <span class="skill-name">Git & GitHub</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="75%">
-                            <span class="skill-name">VS Code</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="70%">
-                            <span class="skill-name">Figma</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="65%">
-                            <span class="skill-name">XAMPP/WAMP</span>
-                            <span class="skill-percent"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="soft-skills">
-                <h3>Soft Skills</h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Problem Solving</span>
-                    <span class="skill-tag">Team Collaboration</span>
-                    <span class="skill-tag">Time Management</span>
-                    <span class="skill-tag">Communication</span>
-                    <span class="skill-tag">Adaptability</span>
-                    <span class="skill-tag">Attention to Detail</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section">
     <div class="container">
-        <h2 class="section-title">Relevant Experience</h2>
-        
-            <div class="experience-grid">
 
-                <div class="exp-card">
-                    <div class="exp-header">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span class="exp-type">Academic</span>
-                    </div>
-                    <h3>Capstone Project Developer</h3>
-                    <p class="company">University Project</p>
-                    <p class="duration">2025 - 2026</p>
-                    <ul>
-                        <li>Developed a full-stack web application as part of capstone project</li>
-                        <li>Collaborated with a team using Git and GitHub</li>
-                        <li>Designed and managed database using MySQL</li>
-                        <li>Presented and defended the system to academic panel</li>
-                    </ul>
-                </div>
+      <div class="section-heading">
 
-                <div class="exp-card">
-                    <div class="exp-header">
-                        <i class="fas fa-laptop-code"></i>
-                        <span class="exp-type">Learning</span>
-                    </div>
-                    <h3>Self-Taught Web Developer</h3>
-                    <p class="company">Independent Learning</p>
-                    <p class="duration">2022 - Present</p>
-                    <ul>
-                        <li>Built multiple web projects using HTML, CSS, JavaScript, and PHP</li>
-                        <li>Practiced responsive design and UI/UX principles</li>
-                        <li>Learned backend development and REST API integration</li>
-                        <li>Continuously improving through hands-on development</li>
-                    </ul>
-                </div>
+        <span>ABOUT</span>
 
-                <div class="exp-card">
-                    <div class="exp-header">
-                        <i class="fas fa-rocket"></i>
-                        <span class="exp-type">Current</span>
-                    </div>
-                    <h3>Currently Building Experience</h3>
-                    <p class="company">Open to Opportunities</p>
-                    <p class="duration">Present</p>
-                    <ul>
-                        <li>Actively developing personal and academic web applications</li>
-                        <li>Expanding knowledge in full-stack development</li>
-                        <li>Seeking internship or entry-level developer opportunities</li>
-                        <li>Continuously improving problem-solving and coding skills</li>
-                    </ul>
-                </div>
+        <h2>
+          Building thoughtful and scalable digital experiences.
+        </h2>
+
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-image">
+
+          <img
+            src="assets/images/mypicture.jpg"
+            alt="Samuel Dineros portrait"
+          />
+
+        </div>
+
+        <div class="about-content">
+
+          <p>
+            I'm a developer focused on building responsive,
+            user-centered web applications with clean interfaces
+            and scalable backend systems.
+          </p>
+
+          <p>
+            My experience includes developing academic and personal
+            projects using PHP, JavaScript, MySQL, and modern web
+            technologies while continuously improving my frontend
+            engineering, UI/UX design, and problem-solving skills.
+          </p>
+
+          <p>
+            I enjoy creating digital experiences that combine
+            functionality, usability, and modern visual design
+            while continuously learning and improving my development workflow.
+          </p>
+
+          <div class="about-info">
+
+            <div class="info-card">
+              <span>Education</span>
+              <strong>BS Information Technology</strong>
+            </div>
+
+            <div class="info-card">
+              <span>Specialization</span>
+              <strong>Full Stack Web Development</strong>
+            </div>
+
+            <div class="info-card">
+              <span>Focus</span>
+              <strong>Responsive Web Applications</strong>
+            </div>
+
+            <div class="info-card">
+              <span>Status</span>
+              <strong class="green-text">
+                Open to Opportunities
+              </strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section id="projects" class="section darker">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>FEATURED PROJECTS</span>
+
+        <h2>
+          Selected work and development projects.
+        </h2>
+
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card featured">
+
+          <div class="project-image"></div>
+
+          <div class="project-content">
+
+            <div class="project-label">
+              Thesis Project
+            </div>
+
+            <h3>PinasTrivia</h3>
+
+            <p>
+              Developed a multiplayer trivia web application focused on
+              Philippine culture and history featuring real-time gameplay,
+              authentication systems, room management, and leaderboard
+              functionality using PHP, MySQL, AJAX, and JavaScript.
+            </p>
+
+            <div class="tech-stack">
+
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>JavaScript</span>
+              <span>AJAX</span>
 
             </div>
-        </div>
-    </section>
 
-    <section id="contact" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Work Together!</h3>
-                    <p>I'm currently looking for opportunities in web development. Whether you have a question or just want to say hi, feel free to reach out!</p>
-                    
-                    <div class="contact-items">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <span>Email</span>
-                                <p>dinerossamuel.s@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <span>Phone</span>
-                                <p>+6390 8613 2404</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <span>Location</span>
-                                <p>Philippines</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="project-links">
 
-                    <div class="social-links">
-                        <a href="https://github.com/ssdinerr-cell" class="social-btn"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/samuel-dineros-645957402/" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
+              <a href="https://pinastrivia.free.nf">
+                Live Demo
+              </a>
 
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
+              <a href="https://github.com/ssdinerr-cell/Pinastrivia_App">
+                GitHub
+              </a>
+
             </div>
+
+          </div>
+
         </div>
-    </section>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Samuel Dineros. All rights reserved.</p>
-            <p class="made-with">Powered by <i class="fas fa-bolt"></i>, bad decisions, and questionable amounts of energy drinks</p>
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+          <div class="project-content">
+
+            <div class="project-label">
+              Frontend Project
+            </div>
+
+            <h3>Responsive Web Interface</h3>
+
+            <p>
+              Developed responsive and user-focused frontend layouts
+              emphasizing clean UI structure, accessibility, responsive
+              behavior, and modern design principles.
+            </p>
+
+            <div class="tech-stack">
+
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+
+            </div>
+
+          </div>
+
         </div>
-    </footer>
 
-    <button id="scrollTop" class="scroll-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <!-- PROJECT 3 -->
 
-    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
-    <script src="assets/script/main.js"></script>
+        <div class="project-card">
+
+          <div class="project-content">
+
+            <div class="project-label">
+              UI/UX Practice
+            </div>
+
+            <h3>Modern Dashboard Concept</h3>
+
+            <p>
+              Created modern interface layouts and reusable UI components
+              focused on visual hierarchy, responsive design, and clean
+              user experiences.
+            </p>
+
+            <div class="tech-stack">
+
+              <span>JavaScript</span>
+              <span>CSS</span>
+              <span>UI/UX</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+
+  <section id="skills" class="section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>SKILLS</span>
+
+        <h2>
+          Technologies and tools I work with.
+        </h2>
+
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+
+          <i class="fab fa-html5"></i>
+
+          <h3>Frontend Development</h3>
+
+          <p>
+            HTML, CSS, JavaScript,
+            Responsive Design,
+            UI/UX Principles
+          </p>
+
+        </div>
+
+        <div class="skill-card">
+
+          <i class="fas fa-server"></i>
+
+          <h3>Backend Development</h3>
+
+          <p>
+            PHP, MySQL,
+            REST APIs,
+            Authentication Systems
+          </p>
+
+        </div>
+
+        <div class="skill-card">
+
+          <i class="fab fa-github"></i>
+
+          <h3>Tools & Workflow</h3>
+
+          <p>
+            GitHub, VS Code,
+            Figma, XAMPP,
+            Version Control
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+
+  <section id="experience" class="section darker">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>EXPERIENCE</span>
+
+        <h2>
+          Experience and technical development.
+        </h2>
+
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+
+            <span class="timeline-year">
+              2025 — 2026
+            </span>
+
+            <h3>
+              Capstone Project Developer
+            </h3>
+
+            <p>
+              Built a full-stack multiplayer web platform for academic
+              thesis presentation with authentication, game systems,
+              and responsive frontend interfaces.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+
+            <span class="timeline-year">
+              2022 — Present
+            </span>
+
+            <h3>
+              Self-Taught Developer
+            </h3>
+
+            <p>
+              Continuously developing responsive projects while improving
+              frontend architecture, UI/UX design, backend integration,
+              and modern web development practices.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="section">
+
+    <div class="container">
+
+      <div class="contact-box">
+
+        <div class="contact-text">
+
+          <span>CONTACT</span>
+
+          <h2>
+            Let's build something great together.
+          </h2>
+
+          <p>
+            I'm currently open to internships,
+            freelance opportunities, collaborative projects,
+            and entry-level developer roles.
+          </p>
+
+        </div>
+
+        <div class="contact-actions">
+
+          <a
+            href="mailto:dinerossamuel.s@gmail.com"
+            class="btn btn-primary"
+          >
+            Send Email
+          </a>
+
+          <a
+            href="https://github.com/ssdinerr-cell"
+            class="btn btn-secondary"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <p>
+        © 2026 Samuel Dineros
+      </p>
+
+      <div class="footer-links">
+
+        <a href="https://github.com/ssdinerr-cell">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/samuel-dineros-645957402/">
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="assets/script/main.js"></script>
+
 </body>
 </html>
